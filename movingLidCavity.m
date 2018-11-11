@@ -419,8 +419,8 @@ contourf(x,y,u,20), set(gca,'Ydir','reverse');
 %contourf(x,y,U,20), set(gca,'Ydir','reverse');
 %pause
 %contourf(x,y,P,20), set(gca,'Ydir','reverse');
-%h = streamslice(x,y,u,-v); set(gca,'Ydir','reverse');
-%set(h,'color','black');
+h = streamslice(x,y,u,-v); set(gca,'Ydir','reverse');
+set(h,'color','black');
 drawnow;
 
 end
